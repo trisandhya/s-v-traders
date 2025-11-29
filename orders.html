@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Place Order</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h2>Place Order</h2>
+
+  <form id="order-form">
+      <input name="shop_name" placeholder="Shop Name" required />
+      <input name="shop_mobile" placeholder="Mobile Number" required />
+
+      <textarea name="items" placeholder="Enter items as JSON">
+[
+  {"id": "aloo-sev", "qty": 10},
+  {"id": "gathiya", "qty": 5}
+]
+      </textarea>
+
+      <button type="submit">Submit</button>
+  </form>
+
+  <div id="status"></div>
+
+  <script src="js/order.js"></script>
+</body>
+</html>
