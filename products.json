@@ -1,0 +1,24 @@
+[
+  {
+    "sku": "ALOOSEV-200",
+    "image": "images/aloo_sev_200.jpg",
+    "name": {
+      "en": "Aloo Sev - 200g",
+      "hi": "आलू सेव - 200ग्राम",
+      "te": "ఆలూ సేవ్ - 200గ్రా"
+    },
+    "price": 40,
+    "category": "Namkeen"
+  },
+  {
+    "sku": "KHICHIYA-RICE-200",
+    "image": "images/khichiya_rice_200.jpg",
+    "name": {
+      "en": "Khichiya Papad – Rice Flour - 200g",
+      "hi": "खिचिया पापड़ – चावल - 200ग्राम",
+      "te": "ఖిచియా పాపడ్ – బియ్యం పిండి - 200గ్రా"
+    },
+    "price": 50,
+    "category": "Papad"
+  }
+]
